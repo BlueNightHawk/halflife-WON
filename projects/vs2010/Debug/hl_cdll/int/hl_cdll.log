@@ -1,0 +1,208 @@
+﻿Build started 27-12-2022 09:53:34 PM.
+     1>Project "E:\Github\halflife-WON\projects\vs2010\hl_cdll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\hl_cdll\int\hl_cdll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\hl_cdll\client.dll" /INCREMENTAL /NOLOGO ..\..\utils\vgui\lib\win32_vc6\vgui.lib wsock32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hl_cdll\int\client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\hl_cdll\client.lib" /MACHINE:X86 /DLL Debug\hl_cdll\int\client.dll.embed.manifest.res
+         Debug\hl_cdll\int\ammo.obj
+         Debug\hl_cdll\int\ammohistory.obj
+         Debug\hl_cdll\int\ammo_secondary.obj
+         Debug\hl_cdll\int\battery.obj
+         Debug\hl_cdll\int\cdll_int.obj
+         Debug\hl_cdll\int\com_weapons.obj
+         Debug\hl_cdll\int\death.obj
+         Debug\hl_cdll\int\demo.obj
+         Debug\hl_cdll\int\entity.obj
+         Debug\hl_cdll\int\events.obj
+         Debug\hl_cdll\int\ev_common.obj
+         Debug\hl_cdll\int\ev_hldm.obj
+         Debug\hl_cdll\int\flashlight.obj
+         Debug\hl_cdll\int\GameStudioModelRenderer.obj
+         Debug\hl_cdll\int\geiger.obj
+         Debug\hl_cdll\int\health.obj
+         Debug\hl_cdll\int\hl_baseentity.obj
+         Debug\hl_cdll\int\hl_events.obj
+         Debug\hl_cdll\int\hl_objects.obj
+         Debug\hl_cdll\int\hl_weapons.obj
+         Debug\hl_cdll\int\hud.obj
+         Debug\hl_cdll\int\hud_bench.obj
+         Debug\hl_cdll\int\hud_benchtrace.obj
+         Debug\hl_cdll\int\hud_msg.obj
+         Debug\hl_cdll\int\hud_redraw.obj
+         Debug\hl_cdll\int\hud_servers.obj
+         Debug\hl_cdll\int\hud_spectator.obj
+         Debug\hl_cdll\int\hud_update.obj
+         Debug\hl_cdll\int\input.obj
+         Debug\hl_cdll\int\inputw32.obj
+         Debug\hl_cdll\int\interpolation.obj
+         Debug\hl_cdll\int\in_camera.obj
+         Debug\hl_cdll\int\menu.obj
+         Debug\hl_cdll\int\message.obj
+         Debug\hl_cdll\int\saytext.obj
+         Debug\hl_cdll\int\statusbar.obj
+         Debug\hl_cdll\int\status_icons.obj
+         Debug\hl_cdll\int\StudioModelRenderer.obj
+         Debug\hl_cdll\int\studio_util.obj
+         Debug\hl_cdll\int\text_message.obj
+         Debug\hl_cdll\int\train.obj
+         Debug\hl_cdll\int\tri.obj
+         Debug\hl_cdll\int\util.obj
+         Debug\hl_cdll\int\vgui_ClassMenu.obj
+         Debug\hl_cdll\int\vgui_ControlConfigPanel.obj
+         Debug\hl_cdll\int\vgui_CustomObjects.obj
+         Debug\hl_cdll\int\vgui_int.obj
+         Debug\hl_cdll\int\vgui_MOTDWindow.obj
+         Debug\hl_cdll\int\vgui_SchemeManager.obj
+         Debug\hl_cdll\int\vgui_ScorePanel.obj
+         Debug\hl_cdll\int\vgui_ServerBrowser.obj
+         Debug\hl_cdll\int\vgui_SpectatorPanel.obj
+         Debug\hl_cdll\int\vgui_TeamFortressViewport.obj
+         Debug\hl_cdll\int\vgui_teammenu.obj
+         Debug\hl_cdll\int\view.obj
+         Debug\hl_cdll\int\voice_status.obj
+         Debug\hl_cdll\int\parsemsg.obj
+         Debug\hl_cdll\int\crossbow.obj
+         Debug\hl_cdll\int\crowbar.obj
+         Debug\hl_cdll\int\egon.obj
+         Debug\hl_cdll\int\gauss.obj
+         Debug\hl_cdll\int\handgrenade.obj
+         Debug\hl_cdll\int\hornetgun.obj
+         Debug\hl_cdll\int\mp5.obj
+         Debug\hl_cdll\int\python.obj
+         Debug\hl_cdll\int\rpg.obj
+         Debug\hl_cdll\int\satchel.obj
+         Debug\hl_cdll\int\shotgun.obj
+         Debug\hl_cdll\int\squeakgrenade.obj
+         Debug\hl_cdll\int\tripmine.obj
+         Debug\hl_cdll\int\hl_wpn_glock.obj
+         Debug\hl_cdll\int\vgui_checkbutton2.obj
+         Debug\hl_cdll\int\vgui_grid.obj
+         Debug\hl_cdll\int\vgui_helpers.obj
+         Debug\hl_cdll\int\vgui_listbox.obj
+         Debug\hl_cdll\int\vgui_loadtga.obj
+         Debug\hl_cdll\int\vgui_scrollbar2.obj
+         Debug\hl_cdll\int\vgui_slider2.obj
+         Debug\hl_cdll\int\voice_banmgr.obj
+         Debug\hl_cdll\int\pm_debug.obj
+         Debug\hl_cdll\int\pm_math.obj
+         Debug\hl_cdll\int\pm_shared.obj
+         Debug\hl_cdll\int\interface.obj
+         ..\..\lib\public\game_controls.lib
+            Creating library Debug\hl_cdll\client.lib and object Debug\hl_cdll\client.exp
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hl_cdll\int\client.dll.embed.manifest" /manifest Debug\hl_cdll\int\client.dll.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hl_cdll\int\client.dll.embed.manifest.res" Debug\hl_cdll\int\client_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\hl_cdll\client.dll" /INCREMENTAL /NOLOGO ..\..\utils\vgui\lib\win32_vc6\vgui.lib wsock32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hl_cdll\int\client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\hl_cdll\client.lib" /MACHINE:X86 /DLL Debug\hl_cdll\int\client.dll.embed.manifest.res
+         Debug\hl_cdll\int\ammo.obj
+         Debug\hl_cdll\int\ammohistory.obj
+         Debug\hl_cdll\int\ammo_secondary.obj
+         Debug\hl_cdll\int\battery.obj
+         Debug\hl_cdll\int\cdll_int.obj
+         Debug\hl_cdll\int\com_weapons.obj
+         Debug\hl_cdll\int\death.obj
+         Debug\hl_cdll\int\demo.obj
+         Debug\hl_cdll\int\entity.obj
+         Debug\hl_cdll\int\events.obj
+         Debug\hl_cdll\int\ev_common.obj
+         Debug\hl_cdll\int\ev_hldm.obj
+         Debug\hl_cdll\int\flashlight.obj
+         Debug\hl_cdll\int\GameStudioModelRenderer.obj
+         Debug\hl_cdll\int\geiger.obj
+         Debug\hl_cdll\int\health.obj
+         Debug\hl_cdll\int\hl_baseentity.obj
+         Debug\hl_cdll\int\hl_events.obj
+         Debug\hl_cdll\int\hl_objects.obj
+         Debug\hl_cdll\int\hl_weapons.obj
+         Debug\hl_cdll\int\hud.obj
+         Debug\hl_cdll\int\hud_bench.obj
+         Debug\hl_cdll\int\hud_benchtrace.obj
+         Debug\hl_cdll\int\hud_msg.obj
+         Debug\hl_cdll\int\hud_redraw.obj
+         Debug\hl_cdll\int\hud_servers.obj
+         Debug\hl_cdll\int\hud_spectator.obj
+         Debug\hl_cdll\int\hud_update.obj
+         Debug\hl_cdll\int\input.obj
+         Debug\hl_cdll\int\inputw32.obj
+         Debug\hl_cdll\int\interpolation.obj
+         Debug\hl_cdll\int\in_camera.obj
+         Debug\hl_cdll\int\menu.obj
+         Debug\hl_cdll\int\message.obj
+         Debug\hl_cdll\int\saytext.obj
+         Debug\hl_cdll\int\statusbar.obj
+         Debug\hl_cdll\int\status_icons.obj
+         Debug\hl_cdll\int\StudioModelRenderer.obj
+         Debug\hl_cdll\int\studio_util.obj
+         Debug\hl_cdll\int\text_message.obj
+         Debug\hl_cdll\int\train.obj
+         Debug\hl_cdll\int\tri.obj
+         Debug\hl_cdll\int\util.obj
+         Debug\hl_cdll\int\vgui_ClassMenu.obj
+         Debug\hl_cdll\int\vgui_ControlConfigPanel.obj
+         Debug\hl_cdll\int\vgui_CustomObjects.obj
+         Debug\hl_cdll\int\vgui_int.obj
+         Debug\hl_cdll\int\vgui_MOTDWindow.obj
+         Debug\hl_cdll\int\vgui_SchemeManager.obj
+         Debug\hl_cdll\int\vgui_ScorePanel.obj
+         Debug\hl_cdll\int\vgui_ServerBrowser.obj
+         Debug\hl_cdll\int\vgui_SpectatorPanel.obj
+         Debug\hl_cdll\int\vgui_TeamFortressViewport.obj
+         Debug\hl_cdll\int\vgui_teammenu.obj
+         Debug\hl_cdll\int\view.obj
+         Debug\hl_cdll\int\voice_status.obj
+         Debug\hl_cdll\int\parsemsg.obj
+         Debug\hl_cdll\int\crossbow.obj
+         Debug\hl_cdll\int\crowbar.obj
+         Debug\hl_cdll\int\egon.obj
+         Debug\hl_cdll\int\gauss.obj
+         Debug\hl_cdll\int\handgrenade.obj
+         Debug\hl_cdll\int\hornetgun.obj
+         Debug\hl_cdll\int\mp5.obj
+         Debug\hl_cdll\int\python.obj
+         Debug\hl_cdll\int\rpg.obj
+         Debug\hl_cdll\int\satchel.obj
+         Debug\hl_cdll\int\shotgun.obj
+         Debug\hl_cdll\int\squeakgrenade.obj
+         Debug\hl_cdll\int\tripmine.obj
+         Debug\hl_cdll\int\hl_wpn_glock.obj
+         Debug\hl_cdll\int\vgui_checkbutton2.obj
+         Debug\hl_cdll\int\vgui_grid.obj
+         Debug\hl_cdll\int\vgui_helpers.obj
+         Debug\hl_cdll\int\vgui_listbox.obj
+         Debug\hl_cdll\int\vgui_loadtga.obj
+         Debug\hl_cdll\int\vgui_scrollbar2.obj
+         Debug\hl_cdll\int\vgui_slider2.obj
+         Debug\hl_cdll\int\voice_banmgr.obj
+         Debug\hl_cdll\int\pm_debug.obj
+         Debug\hl_cdll\int\pm_math.obj
+         Debug\hl_cdll\int\pm_shared.obj
+         Debug\hl_cdll\int\interface.obj
+         ..\..\lib\public\game_controls.lib
+            Creating library Debug\hl_cdll\client.lib and object Debug\hl_cdll\client.exp
+         hl_cdll.vcxproj -> E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\client.dll
+       PostBuildEvent:
+         Description: Performing Post-Build Event
+         call ..\..\filecopy.bat E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\client.dll ..\..\..\game\mod\cl_dlls\client.dll
+         call ..\..\filecopy.bat E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\\client.pdb ..\..\..\game\mod\cl_dlls\client.pdb
+         :VCEnd
+         'p4' is not recognized as an internal or external command,
+         operable program or batch file.
+         The system cannot find the path specified.
+                 0 file(s) copied.
+         'p4' is not recognized as an internal or external command,
+         operable program or batch file.
+         The system cannot find the path specified.
+                 0 file(s) copied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "call ..\..\filecopy.bat E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\client.dll ..\..\..\game\mod\cl_dlls\client.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: call ..\..\filecopy.bat E:\Github\halflife-WON\projects\vs2010\Debug\hl_cdll\\client.pdb ..\..\..\game\mod\cl_dlls\client.pdb
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "E:\Github\halflife-WON\projects\vs2010\hl_cdll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.62
